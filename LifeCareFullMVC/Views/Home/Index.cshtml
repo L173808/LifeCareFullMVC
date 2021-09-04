@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>Doctor Section </h1>
+            <img src="https://lh3.googleusercontent.com/proxy/pwsxrJKzblyYZ5hvArSnzv9vI-5zsFM-No67AB6tDH_pOAwm6cOgcGiCeDm8VoqRnKfEiRNJ1Y7ryzn0yLibgJ1LRetjuzPAimXOwXYxO5o9rA" class="img-thumbnail" />
+            <a href="@Url.Action("Index","DoctorModules")" class="btn btn-warning">Doctor Department </a>
+        </div>
+
+        <div class="col-md-4">
+            <h1>Patient Section </h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQI3O7LiPBU83OEU8KpR4K8vASEN5WYxtsYg0EYuokpLBlzv6OoNL_K34vCX31GhtN63Q&usqp=CAU" class="img-thumbnail" />
+            <a href="@Url.Action("Index","PatientModules")" class="btn btn-warning">Patient Department </a>
+        </div>
+
+        <div class="col-md-4">
+            <h1>Body Test Section </h1>
+            <img src="https://d2szeqon68xvqv.cloudfront.net/sites/default/files/styles/teaser_mobile/public/externals/8dc2de8a11359d368686831032590c02.jpg?itok=cUTz_QZ-" class="img-thumbnail" />
+            <a href="@Url.Action("Index","TestModules")" class="btn btn-warning">Body Test Department </a>
+        </div>
+
+
+    </div>
+
+
+</div>
